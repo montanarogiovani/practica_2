@@ -1,0 +1,367 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #424242;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    vertical-align: baseline;
+}   
+a{
+    text-decoration: none;
+}
+.listatitulo, .titulo, .seccion1, .seccion2, .subscription, .moreverge{
+    margin-left: 270px;
+    width: 50%;
+}
+.navbar{
+    background-color: black;
+    padding-bottom: 1px;
+}
+.vergelogo{
+    position: absolute;
+    left: 410px;
+}
+.navlist{
+    font-family:"Heroic", Impact, "Arial Narrow", Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    font-stretch: extra-condensed;
+    left: 550px;
+    padding-top: 4px;
+    
+}
+.navitem{
+   
+    padding: 19px;
+    
+    color: white;
+    font-size: 15px;
+    box-sizing: border-box;
+    letter-spacing: .05em;
+    text-rendering: optimizeLegibility;
+    height: 35px;   
+}
+.share-btn{
+    position: absolute;
+    font-size: 25px;
+    top: -10px;
+    right: 500px;
+    letter-spacing: 10px;
+    color: #e2127A;
+}
+.share-btn a{
+    color: #e2127A;
+}
+.titulo, .seccion1, .seccion2{
+    padding-left: 140px;
+}
+.vergetittle{
+    margin-left: 415px;
+}
+.espacio{
+    margin: 160px;
+}
+.titulo{
+    line-height: 15px;
+    
+}
+.titulo h1{
+    line-height: 50px;
+}
+.titulo a{
+    color: #e2127A;
+}
+.letra-chica{
+    font-size: 13.5px;
+}
+.listatitulo ul{
+    display: flex;
+    
+    font-size: 13px;
+    margin-left: 90px;
+}
+.listatitulo li{
+    padding-right: 30px;
+}
+h1{
+    color: black;
+    font-size: 40px
+}
+.subtext{
+    color: gray;
+    font-style: italic;
+    font-size: 22px;
+}
+.seccion2{
+    font-size: 18px;
+    width: 39%;
+    line-height: 30px;
+}
+.twitter-tweet{
+    margin-left: 10%;
+    padding: 20px;
+}
+
+.subscription{
+    padding: 4px;
+    margin-top: 40px;
+    border: 1px;
+    border-left: 3px #393092  solid;
+    line-height: 10px;
+    background-color: rgb(233, 232, 232);
+    margin-left: 410px;
+    width: 800px;
+    height: 70px;
+    
+}
+
+li{
+    list-style: none;
+}
+.subscribe{
+    color: white;
+    font-size: 14px;
+    padding: 6px;
+    border: 2px #e2127A;
+    float: right;
+    position: absolute;
+    right: 690px;
+    top: 2950px;
+    text-decoration: none;
+    background-color: #e2127A;
+}
+.listatitulo-en a{
+    color: #e2127A;
+    text-decoration: none;
+}
+.listatitulo-tv a{
+    color: #383092; 
+    text-decoration: none;
+}
+.listatitulo-dp a{
+    color: #f02d25;
+    text-decoration: none;
+}
+.borde-rosa{
+    color: #e2127A;
+    position: absolute;
+    padding: 14px;
+    top: 401px;
+    left: 415px;
+    width: 5%;
+    background: transparent;
+    border-right: 1px solid #e2127A;
+    border-top: 1px solid;
+    transform: skewX(
+    25deg
+);
+}
+.borde-azul{
+    color: #383092;
+    position: absolute;
+    padding: 14px;
+    top: 401px;
+    left: 540px;
+    width: 3.8%;
+    background: transparent;
+    border-right: 1px solid ;
+    border-top: 1px solid;
+    transform: skewX(
+    25deg
+    );
+}
+.borde-naranja{
+    color: #f02d25;
+    position: absolute;
+    padding: 14px;
+    top: 401px;
+    left: 640px;
+    width: 4.7%;
+    background: transparent;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    transform: skewX(
+    25deg
+);
+}
+.listatitulo{
+    margin-left: 280px;
+}
+
+.share-btn2{
+    font-size: 33px;
+    margin-left: 370px;
+    letter-spacing: 10px;
+}
+.seccion1 p{
+    color: #626262;
+    font-size: 15px;
+    border-bottom: 1px solid #e7e7e8;
+    width: 79%;   
+}
+.seccion2 a{
+    color: #e2127A;
+    text-decoration: #e2127A;
+}
+.verge_deals{
+    background: #ffffff;
+    border: 2px solid #383092;
+    color: #424242;
+    padding: 32px 16px 16px;
+    position: absolute;
+    top: 850px;
+    right: 400px;
+    text-align: center;
+}
+.dollarsign{
+    display: block;
+    background: #ffffff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0 16px;
+    left: calc(50%);
+    position: absolute;
+    top: 2px;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.signing{
+    font-size: 12.6px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+    color: #767676;
+    box-sizing: border-box;
+}
+.subscribe_2{
+    background-color: #383092;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: 4px solid;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 85px;
+    padding-right: 85px;   
+}
+.csmoney{
+    position: absolute;
+    top: 1300px;
+    right: 403px;
+}
+.myform{
+    text-align: left;
+    padding: 5px;
+}
+.requiered{
+    color: #767676;
+    font-size: 14px;
+}
+.myform label{
+    display: block;
+}
+.myform input{
+    width: 100%;
+    border: 1px solid gray;
+    border-color: #000000;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-size: .75em;
+    outline: none;
+    padding: 9px;
+}
+.privacy_notice{
+    color: #e2127A;
+    text-decoration: none;
+}
+.recomended{
+    position: absolute;
+    padding: 17px;
+    top: 3030px;
+    left: 420px;
+    margin-bottom: 50px;
+    width: 12%;
+    background: transparent;
+    border-right: 2px solid;
+    border-top: 2px solid;
+    margin-right: 300px;
+    transform: skewX(
+25deg
+);
+}
+.mftv{
+    line-height: 100px;
+    font-size: 25px;
+    font-family: "Heroic","Arial Narrow",Helvetica,sans-serif;
+    text-transform: uppercase;
+    margin-left: 99px;
+}
+.moreverge li{
+    font-size: 18px;
+    padding: 3px;
+    margin-left: 99px;
+}
+.moreverge li a{
+    color: #e2127A;
+}
+.recommended-2{
+    font-family: "Heroic","Arial Narrow",Helvetica,sans-serif;
+    line-height: 1.6;
+    margin-left: 38px;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.borde-ult{
+    position: absolute;
+    padding: 15px;
+    top: 3330px;
+    left: 420px;
+    margin-bottom: 50px;
+    width: 7%;
+    background: transparent;
+    border-right: 2px solid;
+    border-top: 2px solid;
+    margin-right: 300px;
+    transform: skewX(
+25deg
+);
+}
+.re-list li{
+    margin-right: 20px;
+    float: left;
+    width: 10.9%;
+    display: block;
+    color: #424242;
+    font-family: "adelle-sans",Helvetica,sans-serif;
+    text-align: left;
+    line-height: 1.25;
+    font-size: 15px;
+    font-weight: 500;
+    max-height: 100%;  
+  
+}
+.ads{
+    margin-left: 375px;
+    
+}
+.ads li{
+    font-size: 15px;
+    font-weight: 600;
+}
+.sponsored{
+    font-size: 12px;
+    
+    font-weight: 500;
+}
+.re-list a{
+    color: #424242;
+}
